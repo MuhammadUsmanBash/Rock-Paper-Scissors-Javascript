@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Main>
+        <div class="heading">
+            <h2>Rock Paper Scissors</h2>
+        </div>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="Images/rock.png" alt="">
+            </div>
+            <div class="choice" id="paper">
+                <img src="Images/paper.png" alt="">
+            </div>
+            <div class="choice" id="scissors">
+                <img src="Images/scissors.png" alt="">
+            </div>
+        </div>
+        <div class="score-board">
+            <h2>Score Board</h2>
+            <div class="scores">
+                <div class="user-score">
+                    <p id="user-s">0</p>
+                    <h2>Your Score</h2>
+                </div>
+                <div class="comp-score">
+                    <p id="comp-s">0</p>
+                    <h2>Comp Score</h2>
+                </div>
+            </div>
+        </div>
+        <div class="result">
+            <h1 id="result-statement">Play Move</h1>
+        </div>
+        <div class="reset-button">
+            <button id="new-game">New Game</button>
+        </div>
+    </Main>
+            <!-- audios -->
+            <audio id="rockSound">
+                <source src="Audio/Rock.mp3" type="audio/mp3">
+            </audio>
+            <audio id="paperSound">
+                <source src="Audio/Paper.mp3" type="audio/mp3">
+            </audio>
+            <audio id="scissorsSound">
+                <source src="Audio/Scissors.mp3" type="audio/mp3">
+            </audio>
+    <script src="app.js"></script>
+</body>
+</html>

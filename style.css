@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 0;
+}
+body{
+    height: 100vh;
+}
+.heading{
+    height: 10vh;
+    background-color: #03045e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice img{
+    height: 17vh;
+    width: 17vh;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.choice{
+    height: 17vh;
+    width: 17vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid transparent; 
+    transition: border-color 0.3s;
+}
+.choice:hover{
+    border: 3px solid black;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2%;
+    margin-top: 2%;
+    height: 30%;
+}
+.scores{
+    height: 7vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 3vh;
+}
+.user-score{
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comp-score{
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.score-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+.score-board h2{
+    font-size: 1.2rem;
+}
+.comp-score h2{
+    font-size: 0.8rem;
+}
+.user-score h2{
+    font-size: 0.8rem;
+}
+#user-s
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#comp-s
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#result-statement{
+    background-color: #03045e;
+    line-height: 1.2;
+    display: inline-block; 
+    color: white; 
+    padding: 10px; 
+    border: 2px solid black;
+    border-radius: 8%;
+
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+.reset-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.reset-button button{
+    background-color: #90e0ef;
+    border-radius: 8px;
+    padding: 3px 14px;
+    font-size: 0.7rem;
+}
